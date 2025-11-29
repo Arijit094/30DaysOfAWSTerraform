@@ -77,18 +77,19 @@ terraform apply       # Apply changes to reach the desired state
 terraform destroy     # Destroy infrastructure
 
 
-🧪 Tasks for Practice
-✔️ Install Terraform
+## 🧪 Tasks for Practice
+### ✔️ Install Terraform
 
 Official Guide: https://developer.hashicorp.com/terraform/install
 
-✔️ Common Installation Commands
+## ✔️ Common Installation Commands
 For macOS
-brew install hashicorp/tap/terraform
+'brew install hashicorp/tap/terraform'
 
-✔️ Setup Commands
-
+## ✔️ Setup Commands
+'''
 terraform -install-autocomplete
 alias tf=terraform
 terraform -version
 
+'''
