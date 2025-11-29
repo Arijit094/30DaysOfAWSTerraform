@@ -22,41 +22,41 @@ Provisioning your infrastructure through code instead of manual processes.
 
 ### 🔹 Why Infrastructure as Code?
 
-Consistency: Identical environments across dev, staging, production
+- Consistency: Identical environments across dev, staging, production
 
-Time Efficiency: Automated provisioning saves hours
+- Time Efficiency: Automated provisioning saves hours
 
-Cost Management: Track costs & automate cleanup
+- Cost Management: Track costs & automate cleanup
 
-Scalability: Deploy hundreds of servers with same effort
+- Scalability: Deploy hundreds of servers with same effort
 
-Version Control: Track changes using Git
+- Version Control: Track changes using Git
 
-Reduced Human Error: Avoid manual configuration mistakes
+- Reduced Human Error: Avoid manual configuration mistakes
 
-Collaboration: Teams work efficiently on infra
+- Collaboration: Teams work efficiently on infra
 
 ## Benefits of IaC
 
-Consistent environment deployment
+- Consistent environment deployment
 
-Easy cost management
+- Easy cost management
 
-Write once, deploy anywhere
+- Write once, deploy anywhere
 
-Time-saving automation
+- Time-saving automation
 
-Reduced human error
+- Reduced human error
 
-Cost optimization
+- Cost optimisation
 
-Git-based version control
+- Git-based version control
 
-Automated cleanup
+- Automated cleanup
 
-Developers focus on building apps
+- Developers focus on building apps
 
-Easy to replicate production for debugging
+- Easy to replicate production for debugging
 
 
 ## 🌍 What is Terraform?
@@ -70,11 +70,11 @@ Write Terraform files → Run Terraform commands → AWS APIs through Provider
 
 ## 🔄 Terraform Workflow Phases
 
-terraform init        # Initialize working directory
-terraform validate    # Validate configuration files
-terraform plan        # Preview execution plan
-terraform apply       # Apply changes to reach the desired state
-terraform destroy     # Destroy infrastructure
+`terraform init`        # Initialize working directory
+`terraform validate`    # Validate configuration files
+`terraform plan`        # Preview execution plan
+`terraform apply`       # Apply changes to reach the desired state
+`terraform destroy`     # Destroy infrastructure
 
 
 ## 🧪 Tasks for Practice
@@ -95,3 +95,4 @@ alias tf=terraform
 terraform -version
 
 ```
+Blog post URL: https://arijit2000.hashnode.dev/how-terraforms-infrastructure-as-code-works
