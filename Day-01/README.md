@@ -1,5 +1,7 @@
-⭐ Day 1: Introduction to Terraform
-📚 Topics Covered
+#⭐ Day 1: Introduction to Terraform
+
+
+##📚 Topics Covered
 
 Understanding Infrastructure as Code (IaC)
 
@@ -13,12 +15,12 @@ Terraform Workflow
 
 Installing Terraform
 
-🧠 Key Learning Points
-🔹 What is Infrastructure as Code?
+##🧠 Key Learning Points
+###🔹 What is Infrastructure as Code?
 
 Provisioning your infrastructure through code instead of manual processes.
 
-🔹 Why Infrastructure as Code?
+###🔹 Why Infrastructure as Code?
 
 Consistency: Identical environments across dev, staging, production
 
@@ -34,7 +36,7 @@ Reduced Human Error: Avoid manual configuration mistakes
 
 Collaboration: Teams work efficiently on infra
 
-Benefits of IaC
+##Benefits of IaC
 
 Consistent environment deployment
 
@@ -57,7 +59,7 @@ Developers focus on building apps
 Easy to replicate production for debugging
 
 
-🌍 What is Terraform?
+##🌍 What is Terraform?
 
 Terraform is an Infrastructure as Code tool used to automate provisioning and management of resources across multiple cloud providers.
 
@@ -66,7 +68,7 @@ Terraform is an Infrastructure as Code tool used to automate provisioning and ma
 Write Terraform files → Run Terraform commands → AWS APIs through Provider
 
 
-🔄 Terraform Workflow Phases
+##🔄 Terraform Workflow Phases
 
 terraform init        # Initialize working directory
 terraform validate    # Validate configuration files
