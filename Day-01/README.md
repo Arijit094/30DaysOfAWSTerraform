@@ -71,9 +71,13 @@ Write Terraform files → Run Terraform commands → AWS APIs through Provider
 ## 🔄 Terraform Workflow Phases
 
 `terraform init`        # Initialize working directory
+
 `terraform validate`    # Validate configuration files
+
 `terraform plan`        # Preview execution plan
+
 `terraform apply`       # Apply changes to reach the desired state
+
 `terraform destroy`     # Destroy infrastructure
 
 
