@@ -84,12 +84,14 @@ Official Guide: https://developer.hashicorp.com/terraform/install
 
 ## ✔️ Common Installation Commands
 For macOS
-'brew install hashicorp/tap/terraform'
+`brew install hashicorp/tap/terraform`
 
 ## ✔️ Setup Commands
-'''
+```
 terraform -install-autocomplete
+
 alias tf=terraform
+
 terraform -version
 
-'''
+```
