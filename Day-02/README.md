@@ -23,11 +23,15 @@
 ##Version Constraints
 - Use version constraints to specify acceptable provider versions:
 
-`= 1.2.3` - Exact version
-`>= 1.2` - Greater than or equal to
-<= 1.2 - Less than or equal to
-`~> 1.2` - Pessimistic constraint (allow patch releases)
-`>= 1.2, < 2.0` - Range constraint
+- `= 1.2.3` - Exact version
+
+- `>= 1.2` - Greater than or equal to
+
+- `<= 1.2` - Less than or equal to
+
+- `~> 1.2` - Pessimistic constraint (allow patch releases)
+
+- `>= 1.2, < 2.0` - Range constraint
 ## Best Practices
 - Always specify provider versions
 - Use pessimistic constraints for stability
@@ -65,3 +69,4 @@ terraform {
   }
 }
 ```
+Blog link: https://arijit2000.hashnode.dev/exploring-the-key-features-of-the-terraform-aws-provider
